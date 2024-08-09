@@ -7,7 +7,7 @@
       let num = 0
       let somma = 0
 
-      for (i=0; i<10; i++) {
+      for ( let i=0; i<10; i++) {
          num = prompt('Inserisci un numero')
          somma = somma + parseFloat(num)
       }
@@ -20,7 +20,7 @@
       let num = 0
       let somma = 0
 
-      for (i=0; i<10; i++) {
+      for ( let i=0; i<10; i++) {
          num = prompt('Inserisci un numero')
          if (isNaN(num)) {
             console.log('Il numero ' + num + ' non è valido')
@@ -36,7 +36,7 @@
       let num = 0
       let somma = 0
 
-      for (i=0; i<10; i++) {
+      for (let i=0; i<10; i++) {
          num = prompt('Inserisci un numero')
          while (isNaN(num)) {
             console.log('Il numero ' + num + ' non è valido')
