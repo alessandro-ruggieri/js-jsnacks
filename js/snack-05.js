@@ -10,6 +10,8 @@ for (let i = 0; i < 6; i++) {
    while (isNaN(num)) {
       num = parseFloat(prompt('Numero non valido. Inserisci un altro numero'))
    }
-   numeri.push (num)
+   if (num % 2 != 0) {
+      numeri.push (num)
+   }
 }
 console.log(numeri)
