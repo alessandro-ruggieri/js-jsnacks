@@ -3,7 +3,7 @@
 
 //SOLUZIONE 1 
 /*
-let lastnumber = 0
+let lastnumber
 
 let number = parseInt(prompt('Inserisci un numero.Se inserisci due numeri consecutivi uguali, uscirai dal programma'))
 while (number != lastnumber) {
